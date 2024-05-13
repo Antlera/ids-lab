@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: profiles
 permalink: /team/
 title: Team
 description: 
@@ -7,159 +7,50 @@ nav: true
 nav_order: 6
 display_categories: [Lab Director, Ph.D. Students, Master's Students, Undergraduate Students, Alumni]
 horizontal: false
+
+
+profiles:
+  # if you want to include more than one profile, just replicate the following block
+  # and create one content file for each profile inside _pages/
+  # the image is inside assets/img/profiles/
+  - image: ids_lab_logo_icon_purple.svg
+    content: team/mingjie_tang.md
+    category: Lab Director
+  - image: profiles/tingfeng_lan_avatar.jpg
+    content: team/tingfeng_lan.md
+    category: Alumni
+  - image: profiles/mikecovlee_avatar.jpg
+    content: team/dengchun_li.md
+    category: Master's Students
+  - image: profiles/yinghao_tang_avatar.jpg
+    content: team/yinghao_tang.md
+    category: Alumni
+  - image: profiles/ziling_huang_avatar.jpg
+    content: team/ziling_huang.md
+    category: Master's Students
+  - image: profiles/xu_yan_avatar.jpg
+    content: team/xu_yan.md
+    category: Master's Students
+  - image: profiles/yunjian_lv_avatar.jpg
+    content: team/yunjian_lv.md
+    category: Master's Students
+  - image: profiles/qingsong_cai_avatar.jpg
+    content: team/qingsong_cai.md
+    category: Master's Students
+  - image: profiles/chen_zhang_avatar.jpg
+    content: team/chen_zhang.md
+    category: Undergraduate Students
+  - image: profiles/haoyang_yin_avatar.png
+    content: team/haoyang_yin.md
+    category: Undergraduate Students
+  - image: profiles/yibo_wang_avatar.png
+    content: team/yibo_wang.md
+    category: Undergraduate Students
+  - image: profiles/ljl.jpg
+    content: team/jiale_lao.md
+    category: Alumni
+  - image: profiles/sponge_fei.jpg
+    content: team/yufei.md
+    category: Undergraduate Students
 ---
 
-<article>
-    <h3> Lab Director </h3>
-    <hr>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3 mt-1 mt-md-1 col-md-3 col-4 col-lg-2">
-                {% include figure.html path="assets/img/ids_lab_logo_icon_purple.svg" title="mingjie tang" class="img-fluid rounded
-                z-depth-1" width="130px" %}
-            </div>
-            <div class="col-sm-9 mt-1 mt-md-1 col-md-9 col-8 col-lg-8">
-                <h4><a href="https://merlintang.github.io/">Dr. Mingjie Tang</a></h4>
-                <span>Professor of the CS at SCU</span><br>
-                <span>Email: tangrock at gmail.com</span> <br>
-            </div>
-        </div>
-    </div>
-    <p><br></p>
-    <h3> Ph.D. Students </h3>
-    <hr>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-                <div class="row">
-                    <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                        {% include figure.html path="assets/img/ids_lab_logo_icon_purple.svg" title="lab people" class="img-fluid
-                        rounded z-depth-1" width="130px" %}
-                    </div>
-                    <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                        <h4><a href="https://antlera.github.io/">Tingfeng Lan</a></h4>
-                        <span><img class="emoji" title=":tada:" alt=":tada:"
-                                src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png" height="20"
-                                width="20"> Admitted by UVA</span><br>
-                        <span><b>Research Interests:</b></span><br>
-                        <span>Machine learning systems</span> <br>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-                <div class="row">
-                    <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                        {% include figure.html path="assets/img/ids_lab_logo_icon_purple.svg" title="lab people" class="img-fluid
-                        rounded z-depth-1" width="130px" %}
-                    </div>
-                    <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                        <h4><a href="https://antlera.github.io/">Tingfeng Lan</a></h4>
-                        <span><img class="emoji" title=":tada:" alt=":tada:"
-                                src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png" height="20"
-                                width="20"> Admitted by UVA</span><br>
-                        <span><b>Research Interests:</b></span><br>
-                        <span>Machine learning systems</span> <br>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <p><br></p>
-    <h3> Master Students </h3>
-    <hr>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-                <div class="row">
-                    <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                        {% include figure.html path="assets/img/ids_lab_logo_icon_purple.svg" title="lab people" class="img-fluid
-                        rounded z-depth-1" width="130px" %}
-                    </div>
-                    <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                        <h4><a href="https://antlera.github.io/">Tingfeng Lan</a></h4>
-                        <span><b>Research Interests:</b></span><br>
-                        <span>Machine learning systems</span> <br>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <p><br></p>
-    <h3> Undergraduate Interns </h3>
-    <hr>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-                <div class="row">
-                    <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                        {% include figure.html path="assets/img/ids_lab_logo_icon_purple.svg" title="lab people" class="img-fluid
-                        rounded z-depth-1" width="130px" %}
-                    </div>
-                    <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                        <h4><a href="https://antlera.github.io/">Tingfeng Lan</a></h4>
-                        <span><img class="emoji" title=":tada:" alt=":tada:"
-                                src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png" height="20"
-                                width="20"> Admitted by UVA</span><br>
-                        <span><b>Research Interests:</b></span><br>
-                        <span>Machine learning systems</span> <br>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-                <div class="row">
-                    <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                        {% include figure.html path="assets/img/ids_lab_logo_icon_purple.svg" title="lab people" class="img-fluid
-                        rounded z-depth-1" width="130px" %}
-                    </div>
-                    <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                        <h4><a href="https://antlera.github.io/">Tingfeng Lan</a></h4>
-                        <span><img class="emoji" title=":tada:" alt=":tada:"
-                                src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png" height="20"
-                                width="20"> Admitted by UVA</span><br>
-                        <span><b>Research Interests:</b></span><br>
-                        <span>Machine learning systems</span> <br>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <p><br></p>
-    <h3> Alumni </h3>
-    <hr>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-                <div class="row">
-                    <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                        {% include figure.html path="assets/img/ids_lab_logo_icon_purple.svg" title="lab people" class="img-fluid
-                        rounded z-depth-1" width="130px" %}
-                    </div>
-                    <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                        <h4><a href="https://antlera.github.io/">Tingfeng Lan</a></h4>
-                        <span><img class="emoji" title=":tada:" alt=":tada:"
-                                src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png" height="20"
-                                width="20"> Admitted by UVA</span><br>
-                        <span><b>Research Interests:</b></span><br>
-                        <span>Machine learning systems</span> <br>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-                <div class="row">
-                    <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                        {% include figure.html path="assets/img/ids_lab_logo_icon_purple.svg" title="lab people" class="img-fluid
-                        rounded z-depth-1" width="130px" %}
-                    </div>
-                    <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                        <h4><a href="https://antlera.github.io/">Tingfeng Lan</a></h4>
-                        <span><img class="emoji" title=":tada:" alt=":tada:"
-                                src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png" height="20"
-                                width="20"> Admitted by UVA</span><br>
-                        <span><b>Research Interests:</b></span><br>
-                        <span>Machine learning systems</span> <br>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</article>
